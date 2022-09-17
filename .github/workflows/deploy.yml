@@ -32,6 +32,6 @@ jobs:
         run: |
           mv dist/ docs/
           git add docs
-          git commit -m '{{ format("[Deploy] {0}", steps.timestamp.outputs.value) }}'
+          git commit -m '${{ format("[Deploy] {0}", steps.timestamp.outputs.value) }}'
           git checkout -B gh-pages
           git push origin gh-pages -f
