@@ -1,11 +1,5 @@
 
 
-<section data-background-iframe="https://www.youtube-nocookie.com/embed/PfIYyh7JXIk?controls=0"
-         data-background-interactive>
-</section>
-
-==
-
 <!-- %s/^##\{1\}\s/### /g -->
 ## Ingeniería de Software 2022
 Laboratorio 1 - Primera app
